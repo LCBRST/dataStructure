@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <iostream>
 #define OK 1
 #define ERROR 0
 typedef int Status;
@@ -32,8 +33,8 @@ LinkList CreateListF(void)
 int main()
 { LinkList  L;
   L=CreateListF();
-   printf("%c ",L->data);
-   //PrintList(L);
+   //printf("%c ",L->data);
+   //printList(L);
 return 0;
 }
 
